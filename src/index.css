@@ -1,0 +1,17 @@
+body {
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif !important;
+}
+
+.table > :not(:first-child) {
+  border-top: 1px solid #0001 !important;
+}
+
+#pagination-first-page,
+#pagination-last-page {
+  display: none;
+}
+
+.rdt_TableRow:hover {
+  cursor: pointer;
+  background: #f7f8ff;
+}
